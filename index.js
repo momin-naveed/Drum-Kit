@@ -50,11 +50,13 @@ function makeSound(key) {
 
         default: console.log(buttonInnerHTML);
 
+
     }
 }
 function buttonAnimation(currentKey) {
 
     var activeButton = document.querySelector("." + currentKey);
+
     activeButton.classList.add("pressed");
 
     setTimeout(function () {
